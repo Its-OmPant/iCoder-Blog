@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html body{
+    min-height: 100vh;
+}
+
+#navbarSupportedContent{
+    font-size: 1.2rem;
+}
+#Logoname{
+    font-weight: bold;
+}
+.footer-box{
+    text-align: center;
+    text-decoration: none;
+    background-color: #0c335e;
+    color: darkblue;
+    margin-top: 5px;
+    padding: 10px 10px 0 0;
+    margin-bottom: 0px;
+}
+.footer-link{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    margin: 25px;
+}
+.footer-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#f-p{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+#f-p a{
+    color: white;
+}
+
+.verticleScroll{
+    position: absolute;
+    top: 120px;
+    bottom: 100px;
+    left: 180px;
+    width: 50%;
+    overflow-y: scroll;
+}

@@ -1,0 +1,32 @@
+<%- include("partials/header") -%>            
+    <div class="container my-4"><br>
+        <h2>Contact Us</h2><br>
+        <form action="https://formspree.io/f/xoqzaqbj" method="POST">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select your Query</label>
+                <select  name="option" class="form-control" id="exampleFormControlSelect1" required>
+                    <option>Blog Related</option>
+                    <option>Feedback/Suggestions</option>
+                    <option>Others</option>
+                </select>
+            </div>
+                       
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Tell us about yourself</label>
+                <textarea name="intro" class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
+                <textarea name="concern" class="form-control" id="exampleFormControlTextarea2" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+
+    <%- include("partials/footer") -%>

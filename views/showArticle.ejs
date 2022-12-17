@@ -1,0 +1,24 @@
+<%- include("partials/header") -%>
+  <br><br>
+  <div class="card mb-6 mx-auto mt-6" style="max-width: 940px;">
+    <div class="row g-0 ">
+
+      <div class="col-md-12"
+        style="background-color: #effbfb; font-family: cursive; font-size: small; color: rgb(39, 37, 37);">
+        <div class="card-body"><br>
+          <h5 style="font-size: 2rem;" class="card-title">
+            <%= article.title %>
+          </h5><br>
+          <p style="font-size:22px; color:rgb(50, 35, 35)" class="card-text">
+            <%= article.content %>
+          </p>
+          <p style="font-size:18px;" class="card-text"><small class="text-muted">Date Added: <%=
+                article.createdAt.toLocaleDateString() + " at " + article.createdAt.toLocaleTimeString() %></small></p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-md-4" style="margin-top: 35px;">
+        <img src="/images/2.jpg" class="img-fluid rounded-start" alt="..." style="max-width: 300">
+      </div> -->
+  </div>
+  </div>
